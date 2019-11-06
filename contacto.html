@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!--LIBRERIAS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="js/ejecucion.js">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+  
+  <script src="js/ejecucion.js"></script>
+
+  <title>SOFTSELF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="LUIS FERNANDO AHUMADA">
+
+
+  <style>
+    .map-container-6 {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+    .map-container-6 iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>  <style>
+    .map-container-6 {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+    .map-container-6 iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">MENU</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">inicio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">SOBRE NOSOTROS</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">SERVICIOS</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">CONTACTENOS</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+          <h1 class="mb-1  text-light">DA TU PRIMER PASO AL MEJOR SOFTWARE</h1>
+          <h3 class="mb-10 text-light">
+            <em>con seguridad y calidad</em>
+          </h3>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="contactenos.html">CONTACTENOS</a>
+        </div>
+        <div class="overlay"></div>
+      </header>
+
+
+      <section class="container mt-5 pt-5">
+        <!--Section: Contact v.1-->
+        <section class="section pb-5">
+    
+          <!--Section heading-->
+          <h2 class="section-heading h1 pt-4">Contact us</h2>
+          <!--Section description-->
+          <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
+            amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
+            pariatur accusamus veniam.</p>
+    
+          <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-lg-5 mb-4">
+    
+              <!--Form with header-->
+              <div class="card">
+    
+                <div class="card-body">
+                  <!--Header-->
+                  <div class="form-header blue accent-1">
+                    <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+                  </div>
+    
+                  <p>We'll write rarely, but with only the best content.</p>
+                  <br>
+    
+                  <!--Body-->
+    
+        <form name="frgrm" method="post">
+            <input type="hidden" name="vBandera" value="0" />
+                  <div class="md-form">
+                    <i class="fas fa-user prefix grey-text"></i>
+                    <input type="text" id="form-name" name ="vNombre" class="form-control">
+                    <label for="form-name">Tu nombre</label>
+                  </div>
+    
+                  <div class="md-form">
+                    <i class="fas fa-envelope prefix grey-text"></i>
+                    <input type="text" id="form-email" name="vCorreo" class="form-control">
+                    <label for="form-email">Tu correo</label>
+                  </div>
+    
+                  <div class="md-form">
+                    <i class="fas fa-tag prefix grey-text"></i>
+                    <input type="text" id="form-Subject" name="vAsunto" class="form-control">
+                    <label for="form-Subject">Asunto</label>
+                  </div>
+    
+                  <div class="md-form">
+                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                    <textarea id="form-text" name="vDescripcion" class="form-control md-textarea" rows="3"></textarea>
+                    <label for="form-text">Descripcion</label>
+                  </div>
+                  
+    
+                  <div class="text-center mt-4">
+                    <button type="button" onclick="f_Enviar()" class="btn btn-light-bluey">ENVIAR</button>
+    
+                  </div>
+                  </form>
+    
+                </div>
+    
+              </div>
+              <!--Form with header-->
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-7">
+    
+              <!--Google map-->
+              <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+    
+              <br>
+              <!--Buttons-->
+              <div class="row text-center">
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                  <p>San Francisco, CA 94126</p>
+                  <p>United States</p>
+                </div>
+    
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                  <p>+ 01 234 567 89</p>
+                  <p>Mon - Fri, 8:00-22:00</p>
+                </div>
+    
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                  <p>info@gmail.com</p>
+                  <p>sale@gmail.com</p>
+                </div>
+              </div>
+    
+            </div>
+            <!--Grid column-->
+    
+          </div>
+    
+        </section>
+        <!--Section: Contact v.1-->
+      </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">About us</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Products</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Awards</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Help</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Contact</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
+  
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+  
+        <!-- Grid column -->
+        <div class="col-md-8 col-12 mt-5">
+          <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+  
+      <!-- Grid row-->
+      <div class="row pb-3">
+
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/stylish-portfolio.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
